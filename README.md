@@ -11,6 +11,6 @@ python GG_4search.py -i inputpath -o outputpath -c seq
 # -c --column "The name of column containg DNA sequences"
 
 ```
-
+#### This tool helps you filter DNA sequences with searching criterial, and outputs the GG counts >=4 in a csv file  
 ## Reference 
 1. Puig Lombardi, Emilia, and Arturo Londoño-Vallejo. “A guide to computational methods for G-quadruplex prediction.” Nucleic acids research vol. 48,1 (2020): 1-15. doi:10.1093/nar/gkz1097
