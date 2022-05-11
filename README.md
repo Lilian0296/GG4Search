@@ -1,10 +1,10 @@
-#  GG_4search
+#  GQuad
 > ### The quadruplex-forming G-rich sequences finder (DNA)
 >> ### Searching criteria: Gn1Nx1Gn2Nx2Gn3Nx3Gn4; n>=2 <see reference 1>
 
 ```python 
 
-python GG_4search.py -i inputpath -o outputpath -c seq
+python GQuad.py -i inputpath -o outputpath -c seq
 
 # -i --input "Input-file to be analyzed. Format accepted is csv"
 # -o --output "Path to output analyzed data"
