@@ -12,11 +12,11 @@ def get_gg_count(inpath,outpath,seq_column):
         else:
             data["gg_count"][i]=len(re.split(r"[ATCG]G{2,}",data[seq_column][i]))-1
     data=data.loc[(data["gg_count"])>=4]
-    data.to_csv(outpath+"gg_search_4.csv")
+    data.to_csv(outpath+"GQuad.csv")
     return data
 
 parser = argparse.ArgumentParser(
-    prog='python GG_4search.py',
+    prog='python GQuad.py',
     formatter_class=argparse.RawDescriptionHelpFormatter)
 parser.add_argument("-i","--input",help="Input-file to be analyzed. Format accepted is csv")
 parser.add_argument("-o","--output",help="Path to output analyzed data")
