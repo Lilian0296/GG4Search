@@ -1,6 +1,6 @@
 #  GG4Search
 > ### Possible quadruplex-forming G-rich sequences finder (DNA) 
-> ### Grab sequences with potential formation of quadruplexes (not for prediction)
+> ### Grab sequences with the following criteria (not for prediction)
 >> ### Searching criteria: Gn1Nx1Gn2Nx2Gn3Nx3Gn4; n>=2 <see reference 1>
 
 ```python 
